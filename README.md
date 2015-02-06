@@ -1,6 +1,7 @@
 #Codeigniter-jobQueue
 ###Job Queue based on mcurl
 by [Pedro Porlán](http://pporlan.net)
+
 Based on [Codeigniter-jobQueue](https://github.com/marsanla/Codeigniter-jobQueue) by [Marcos Sanz](http://www.mistersanz.com)
 
 Feel free to send me an email if you have any problems or you find bugs.
