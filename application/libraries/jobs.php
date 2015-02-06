@@ -4,13 +4,12 @@ if (!defined('BASEPATH'))
 
 /**
  * Job Queue Library
- * Implements a reddis based job queue with scheduler jobs and user filter
- * CI Redis Lib is required
+ * Implements a DB based job queue with scheduler jobs and user filter
  *
  * @package		Codeigniter
  * @subpackage	Libraries
  * @category	Libraries
- * @author      Marcos Sanz Latorre <marcossanzlatorre@gmail.com>
+ * @author      Pedro Porlán Tornel <info@pporlan.net>
  */
 
 class Jobs {
@@ -65,7 +64,6 @@ class Jobs {
 	 */
 	public function __construct() {
 		$this -> _ci = &get_instance();
-		$this -> _ci -> load -> library('Redis');
 		$this -> _ci -> load -> library('mcurl');
 	}
 
