@@ -1,11 +1,12 @@
 #Codeigniter-jobQueue
-###Job Queue based on redis and mcurl
-by [Marcos Sanz](http://www.mistersanz.com)
+###Job Queue based on mcurl
+by [Pedro Porlán][http://pporlan.net]
+Based on [Codeigniter-jobQueue](https://github.com/marsanla/Codeigniter-jobQueue) by [Marcos Sanz](http://www.mistersanz.com)
 
 Feel free to send me an email if you have any problems or you find bugs.
 
 ##Installation
-First of all, you have to install [codeigniter-redis](http://github.com/joelcox/codeigniter-redis) library, and [codeigniter-mcurl](http://github.com/chadhutchins/codeigniter-mcurl) library.
+First of all, you have to install [codeigniter-mcurl](http://github.com/chadhutchins/codeigniter-mcurl) library.
 Just copy the files from this package to the correspoding folder in your 
 application folder.  For example, /application/libraries/jobs.php.  
 
