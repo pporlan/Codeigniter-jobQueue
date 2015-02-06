@@ -1,15 +1,15 @@
 {
-    "name": "genius13/codeigniter-job-queue-redis",
-    "description": "Job Queue based on redis",
+    "name": "pporlan/codeigniter-job-queue-simple",
+    "description": "Job Queue based on",
     "type": "library",
-    "keywords": ["redis","job","queue"],
-    "homepage": "https://github.com/marsanla/Codeigniter-jobQueue",
+    "keywords": ["codeigniter","job","queue"],
+    "homepage": "https://github.com/pporlan/Codeigniter-jobQueueSimple",
     "license": "MIT",
     "authors": [
         {
-            "name": "Marcos sanz",
-            "email": "marcos.sanz@13genius.com",
-            "homepage": "http://www.mistersanz.com",
+            "name": "Pedro Porlán",
+            "email": "info@pporlan.net",
+            "homepage": "http://pporlan.net",
             "role": "Developer"
         }
     ],
